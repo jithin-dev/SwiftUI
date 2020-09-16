@@ -1,0 +1,5 @@
+// TextField, keyboard with email and texts small letter
+
+TextField("Username", text: self.$mail)
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
